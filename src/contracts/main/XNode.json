@@ -1,0 +1,73 @@
+{
+  "address": "0x5C68F31b590E0345568e26a373F1b886F9Ae85c7",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "getMetadataForOwner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "internalType": "uint8",
+          "name": "level",
+          "type": "uint8"
+        },
+        {
+          "internalType": "bool",
+          "name": "isOnUpgrade",
+          "type": "bool"
+        },
+        {
+          "internalType": "bool",
+          "name": "isOnAuction",
+          "type": "bool"
+        },
+        {
+          "internalType": "uint64",
+          "name": "lastTransferTime",
+          "type": "uint64"
+        },
+        {
+          "internalType": "uint64",
+          "name": "createdAt",
+          "type": "uint64"
+        },
+        {
+          "internalType": "uint64",
+          "name": "updatedAt",
+          "type": "uint64"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "isXNode",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "isX",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
